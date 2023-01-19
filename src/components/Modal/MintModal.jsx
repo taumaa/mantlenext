@@ -9,15 +9,6 @@ export default function MintModal({open, setOpen, txHash}) {
         hash: txHash,
     })
 
-    useEffect(() => {
-        console.log("*****")
-        console.log("isIdle", isIdle)
-        console.log("isLoading", isLoading)
-        console.log("isSuccess", isSuccess)
-        console.log("isError", isError)
-        console.log("*****")
-    }, [isIdle, isLoading, isSuccess, isError])
-
     return (
         <Transition.Root show={open} as={Fragment}>
             <Dialog as="div" className="relative z-10" onClose={setOpen}>
@@ -55,7 +46,7 @@ export default function MintModal({open, setOpen, txHash}) {
                                 )}
                                 {!isLoading && isSuccess && (
                                     <div className="flex flex-col items-center space-y-4 text-sm space-y-4">
-                                        <div>Congrat, you minted your Testnet Mantle Punk !</div>
+                                        <div>Congrats, you minted your Testnet Mantle Punk !</div>
                                         <div className="text-xs">Early mints might be rewarded</div>
                                         <div className="flex flex-row space-x-4">
                                             <a href="https://twitter.com/themantlepunks" target="_blank" rel="noopener" className="bg-twitter text-white px-4 py-2 border-2 border-black">
