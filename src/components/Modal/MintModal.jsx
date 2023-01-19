@@ -58,9 +58,9 @@ export default function MintModal({open, setOpen, txHash}) {
                                         <div>Congrat, you minted your Testnet Mantle Punk !</div>
                                         <div className="text-xs">Early mints might be rewarded</div>
                                         <div className="flex flex-row space-x-4">
-                                            <div className="bg-twitter text-white px-4 py-2 border-2 border-black">
+                                            <a href="https://twitter.com/themantlepunks" target="_blank" rel="noopener" className="bg-twitter text-white px-4 py-2 border-2 border-black">
                                                 Twitter
-                                            </div>
+                                            </a>
                                             <div className="bg-discord text-white px-4 py-2 border-2 border-black">
                                                 Join Discord (TBA)
                                             </div>
