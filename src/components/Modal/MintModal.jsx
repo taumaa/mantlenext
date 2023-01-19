@@ -53,7 +53,7 @@ export default function MintModal({open, setOpen, txHash}) {
                                                 Twitter
                                             </a>
                                             <div className="bg-discord text-white px-4 py-2 border-2 border-black">
-                                                Join Discord (TBA)
+                                                Join Discord (Soon)
                                             </div>
                                         </div>
                                     </div>
