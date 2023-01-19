@@ -1,12 +1,15 @@
-import Head from "next/head";
+import { ConnectButton } from '@rainbow-me/rainbowkit';
+import Header from "@/sections/Header";
+import Mint from "@/sections/Mint";
+import Gallery from "@/sections/Gallery";
 
 export default function Home() {
   return (
     <>
-      <main className="min-w-max min-h-screen flex items-center justify-center bg-primary text-white">
-        <span>
-            smth is cooking
-        </span>
+      <main >
+          <Header />
+          <Mint />
+          <Gallery />
       </main>
     </>
   )
