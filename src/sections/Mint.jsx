@@ -27,7 +27,7 @@ const Mint = () => {
             <div className="flex items-center">
                 <div className="-mb-8">
                     <div className="mb-8 text-white text-xs">
-                        Get a chance to grab a Mantle Punks whitelist spot by minting an exclusive testnet NFT.
+                        This is an awesome NFT collection running on Mantle Testnet
                     </div>
                     <button
                         className="text-black bg-greenlight px-4 py-2 text-xl shadow-2xl"
@@ -49,7 +49,7 @@ const Mint = () => {
                             Minted: .../<span className="text-xl">&infin;</span>
                         </div>
                     )}
-                    <span className="text-xs text-white">(Max supply disabled for testnet)</span>
+                    <span className="text-xs text-white">(No max supply)</span>
                 </div>
             </div>
             <div>
