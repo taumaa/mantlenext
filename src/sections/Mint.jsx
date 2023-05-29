@@ -37,7 +37,7 @@ const Mint = () => {
                     </button>
                     <div className="mt-6 text-white text-sm flex flex-col">
                         <span>Mint Price: 30 $BIT</span>
-                        <span className="text-xs">(not final price, testnet only)</span>
+                        <span className="text-xs">(testnet tokens, worth 0$)</span>
                     </div>
                     { !!humanReadableSupply && !isLoadingSupply && (
                         <div className="mt-6 text-white text-sm">
